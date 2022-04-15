@@ -134,7 +134,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      const Text('Not registered yet?'),
+                      const Text('Already registered?'),
                       TextButton(
                         onPressed: () {
                           Navigator.pushReplacement(
@@ -145,7 +145,7 @@ class _RegisterPageState extends State<RegisterPage> {
                             ),
                           );
                         },
-                        child: const Text('Create an account'),
+                        child: const Text('Sign in'),
                       ),
                     ],
                   ),
